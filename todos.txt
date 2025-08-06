@@ -1,4 +1,4 @@
-Master python
-help
-clean the bag
-
+clean
+make
+put
+place
