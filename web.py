@@ -1,7 +1,7 @@
 import streamlit as st
 import functions
 
-# Load existing todos
+# Load existing todos.
 todos = functions.get_todos()
 
 # Function to add a new todo
