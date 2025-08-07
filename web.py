@@ -1,7 +1,7 @@
 import streamlit as st
 import functions
 
-# Load existing todos.
+# Load existing todos
 todos = functions.get_todos()
 
 # Function to add a new todo
@@ -10,7 +10,7 @@ def add_todo():
     if todo:  # Prevent blank todos
         todos.append(todo + "\n")
         functions.write_todos(todos)
-    st.session_state["new_todo"] = ""  # ✅ Clear input after adding
+    st.session_state["new_todo"] = ""  # Clear input after adding
 
 # UI
 st.title("My Todo App")

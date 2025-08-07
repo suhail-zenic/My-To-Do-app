@@ -1,4 +1,4 @@
-clean
-make
-put
+Master python
+help
+clean the bag
 
